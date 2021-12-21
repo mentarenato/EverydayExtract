@@ -1,0 +1,14 @@
+name: everyday
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch
+  - cudatoolkit=11.3
+  - tqdm
+  - matplotlib
+  - dlib
+  - opencv
+  - torchvision
+prefix: /home/rmenta/miniconda3/envs/everyday
